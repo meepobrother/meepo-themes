@@ -1,0 +1,21 @@
+@function __ary-function($args...) {
+    $function: __this('function');
+    $n: __this('n');
+    $args: __take($args, $n);
+    @return __exec($function, $args...);
+}
+
+@function __ary($function, $n: 1, $guard: null) {
+    @if not __is-function($function) {
+        @return '__noop';
+    }
+    $n: if($n >=0, $n, 0);
+    $_: __scope(( 'function': $function, 'n': $n));
+    $ary-function: __bind('__ary-function');
+    $_: __scope(false);
+    @return $ary-function;
+}
+
+@function _ary($args...) {
+    @return call('__ary', $args...);
+}
