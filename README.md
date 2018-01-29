@@ -1,4 +1,6 @@
-### 
+### meepo themes
+
+> normalize.css, weui, hover , animate 等常用库
 
 - [ionic](https://github.com/ionic-team/ionic)
 
