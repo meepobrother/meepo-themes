@@ -1,6 +1,6 @@
 {
   "name": "meepo-themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.scss",
   "scripts": {
@@ -13,7 +13,8 @@
     "git": "git add . && git commit -m 'update to save ' && git push origin master"
   },
   "private": false,
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@angular-devkit/core": "^0.0.29",
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
@@ -56,6 +57,5 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
-  },
-  "devDependencies": {}
+  }
 }
