@@ -1,6 +1,6 @@
 ### meepo themes
 
-- [scut-em 转化为em](docs/scut-em.md)
+- [scut-em 转化为em](docs/scut/scut-em.md)
 
 > normalize.css, weui, hover , animate 等常用库
 
