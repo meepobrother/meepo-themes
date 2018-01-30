@@ -1,0 +1,32 @@
+@import "themes/common";
+.eg-em-7 {
+    margin: scut-em(50 30px 0 60);
+    padding: scut-em(50 20px 0)
+}
+
+.eg-em-1 {
+    width: scut-em(150);
+}
+
+.eg-em-2 {
+    width: 150px;
+}
+
+.eg-em-3,
+.eg-em-4 {
+    font-size: 20px;
+}
+
+.eg-em-3 {
+    width: scut-em(250, 15);
+}
+
+.eg-em-4 {
+    width: 250px;
+}
+
+$scut-em-base: 20;
+.eg-em-8 {
+    font-size: 20px;
+    width: scut-em(250);
+}
