@@ -112,3 +112,18 @@ $ionicons-font-path: "./app/themes/fonts" !default;
 $ionicons-font-family: "Ionicons" !default;
 $ionicons-version: "2.0.1" !default;
 $ionicons-prefix: ion- !default;
+// 
+$eg-dark: #002834;
+$eg-light: #9AE9FF;
+$eg-muted: #CCCCCC;
+%eg-light-btn {
+    border: 1px solid $eg-dark;
+    color: $eg-dark;
+    padding: 0.3em 0.5em;
+}
+
+%eg-dark-btn {
+    background-color: $eg-dark;
+    color: white;
+    padding: 0.3em 0.5em;
+}

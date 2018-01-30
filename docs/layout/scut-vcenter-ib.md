@@ -1,3 +1,4 @@
+```scss
 @import "themes/common";
 // scut-sticky-footer-fluid
 // scut-sticky-footer-fixed
@@ -20,3 +21,4 @@
 .eg-vcenter-ib-3 {
     @include scut-vcenter-ib(".special-selector-1", ".special-selector-2", ".special-selector-3");
 }
+```
