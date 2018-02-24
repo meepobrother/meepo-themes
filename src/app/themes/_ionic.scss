@@ -5,4 +5,5 @@ $ionic-theme: "Default";
 @import "./ionic-src/ionic.globals.md";
 @import "./ionic-src/ionic.globals.ios";
 @import "./ionic-src/ionic.globals.wp";
-
+@import "./ionic-src/ionic.mixins";
+@import "./ionic-src/util";
