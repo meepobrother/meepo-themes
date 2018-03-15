@@ -1,11 +1,6 @@
 @charset "UTF-8";
-
 @import "common";
-@include normalize();
-@import "flexbox/plugin";
+@import "./ionic-src/normalize";
 @import "ionicons/ionicons";
 @import "~weui";
 @import "~swiper/dist/css/swiper.min.css";
-@import "./ionic-src/normalize";
-
-
